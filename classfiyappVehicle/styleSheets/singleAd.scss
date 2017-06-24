@@ -1,0 +1,19 @@
+@import "partials/singleAd/hero";
+@import "partials/singleAd/flashDetails";
+@import "partials/singleAd/featureTable";
+@import "partials/singleAd/review";
+@import "partials/singleAd/priceAnalysis";
+@import "partials/singleAd/featuresoptions";
+@import "partials/singleAd/fueleconomy";
+@import "partials/singleAd/listingHistory";
+
+#single-ad-page {
+  .section {
+    margin-top: 80px;
+    .title {
+      font-size: 1.6rem;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #c4c4c4;
+    }
+  }
+}

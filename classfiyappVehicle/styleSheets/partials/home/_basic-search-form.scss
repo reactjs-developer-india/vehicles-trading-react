@@ -1,0 +1,62 @@
+#home-page {
+  #basicSearchForm {
+    h3 {
+      margin: 0px;
+    }
+    .row {
+      margin-bottom: 24px;
+    }
+    .checkbox-group {
+      .control {
+        display: inline-block;
+        margin-right: 40px;
+      }
+    }
+    .select-group {
+      margin-bottom: 1.6rem;
+      .Select {
+        display: inline-block;
+      }
+    }
+    .Select {
+      &.place {
+        width: 70%;
+        .Select-control {
+          border-radius: 18.29px 0 0 18.29px;
+        }
+        .Select-arrow-zone {
+          display: none;
+        }
+      }
+
+      &.distance {
+        width: 30%;
+        .Select-placeholder{
+          color: #fff;
+        }
+        &.is-open {
+          .Select-control .Select-arrow {
+            border-color: transparent transparent #ffffff !important;
+            border-width: 0 5px 5px;
+          }
+        }
+        .Select-control {
+          background-color: #d63a3a;
+          border: 0 none;
+          border-radius: 0;
+          border-radius: 0 18.29px 18.29px 0;
+        }
+        .Select-arrow {
+          border-color: #fff transparent transparent;
+        }
+        .Select-value-label {
+          color: #fff !important;
+          font-size: 12px;
+        }
+        .Select-input {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

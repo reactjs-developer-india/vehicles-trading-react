@@ -1,0 +1,118 @@
+@import "../variable";
+
+.navbar {
+  border: 0px;
+  margin-bottom: 0px;
+  .container {
+    width: 100% !important;
+    background-color: #ffffff !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar-header {
+    background-color: $theme-color;
+    margin: 0px !important;
+    a {
+      display: inline-block;
+    }
+    img {
+      padding: 5px;
+    }
+  }
+  .navbar-brand {
+    padding-left: 21px;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    padding-right: 28px;
+  }
+  .nav {
+    a {
+      padding: 15px;
+      display: inline-block;
+      color: #252525 !important;
+      text-decoration: none;
+      &:hover {
+        span {
+          color: #ff9393 !important;
+        }
+      }
+    }
+  }
+  .login {
+
+    color: #ffffff;
+    padding-right: 13px;
+    a {
+      &:hover, &:focus {
+        background-color: $theme-color !important;
+      }
+      background-color: $theme-color;
+      margin-top: 8px;
+      padding-bottom: 7px;
+      padding-top: 7px;
+      color: #ffffff !important;
+      border-radius: 30px;
+    }
+  }
+  .dropdown.btn-group {
+    float: right;
+    margin-top: 8px;
+    .dropdown-menu {
+      right: 0;
+      left: auto;
+      a {
+        padding: 3px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+        text-decoration: none;
+        display: block;
+        &:hover {
+          background-color: #f5f5f5;
+        }
+      }
+    }
+  }
+  #dashboard-menu {
+    background-color: #d63a3a;
+    border-color: #d63a3a;
+    color: #ffffff;
+    opacity: 1;
+    border-radius: 30px;
+  }
+}
+
+#category-stripe {
+  .container {
+    background-color: #383838 !important;
+    text-align: center;
+  }
+  ul {
+    width: 100%;
+    li {
+      float: none;
+      display: inline-block;
+      margin-right: 10px;
+      a {
+        color: #ffffff !important;
+        font-family: "proxima_nova_ltsemibold";
+      }
+    }
+  }
+}
+
+@media (max-width: 766px) {
+  .navbar-collapse {
+    a {
+      display: block !important;
+      text-align: center;
+    }
+    .login {
+      width: 100px;
+      margin: 0 auto;
+    }
+  }
+}
+

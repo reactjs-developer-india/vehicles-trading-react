@@ -1,0 +1,48 @@
+#single-ad-page {
+  .flash-details {
+    margin-top: 52px;
+    .flash-box {
+      border: 1px solid #dedede;
+      margin-bottom: 35px;
+      .box {
+        padding: 20px;
+        &:first-child {
+          padding-top: 30px;
+        }
+        &.right-border {
+          border-right: 1px solid #dedede;
+        }
+        li {
+          list-style-type: disc;
+          list-style-position: inside;
+          color: #d63a3a;
+        }
+        .vertical-stripe {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .price {
+          margin-top: 20px;
+          font-size: 24px;
+        }
+        .title {
+          margin-bottom: 18px;
+          font-size: 1.6rem;
+        }
+        .light-text, li span {
+          color: #7b7b7b;
+          font-size: 1.3rem;
+        }
+      }
+    }
+    .btn-groups {
+      button {
+        width: 228px;
+      }
+    }
+    .box {
+      min-height: 158px;
+    }
+  }
+}

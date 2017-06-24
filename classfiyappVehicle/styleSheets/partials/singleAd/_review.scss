@@ -1,0 +1,19 @@
+#single-ad-page {
+  .reviews {
+    margin-top: 44px;
+    .hero {
+      div {
+        &:first-child {
+          margin-right: 25px;
+          font-size: 1.6rem;
+          vertical-align: bottom;
+        }
+        display: inline-block;
+      }
+    }
+    .detailed-review {
+      margin-top: 44px;
+      font-size: 1.4rem;
+    }
+  }
+}

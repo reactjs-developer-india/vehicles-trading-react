@@ -1,0 +1,32 @@
+#home-page {
+  .search-hero {
+    padding: 50px;
+    .vechicleStripeSlider {
+      position: relative;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 48px;
+      .slick-active.slick-center {
+        color: #d63a3a;
+      }
+      .body-style {
+        text-align: center;
+        margin-top: 17px;
+      }
+
+      .arrows {
+        width: 17px;
+        height: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #home-page {
+    .search-hero {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+#advance-search {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
+  .header {
+    padding: 11px 15px;
+    margin-top: 35px;
+    border-bottom: 2px solid #d5d5d5;
+    .form-title {
+      font-size: 1.5rem;
+      line-height: 34px;
+    }
+    .pull-right {
+      ul li {
+        float: left;
+        &:nth-child(2) {
+          margin-left: 25px;
+          margin-right: 10px;
+        }
+        &:nth-child(4) {
+          margin: 0px 18px;
+        }
+        &.text {
+          line-height: 34px;
+        }
+        &.proximaBold {
+          font-size: 2rem;
+          color: #555555;
+        }
+      }
+      .Select {
+        width: 100px;
+        &.place {
+          width: 130px !important;
+        }
+      }
+    }
+  }
+  form {
+    padding: 24px 33px;
+    .inputGroup {
+      input.textInput, .Select {
+        float: left;
+        width: 45%;
+      }
+      span.to {
+        float: left;
+        margin: 0px 11px;
+      }
+      .textInput {
+        &:nth-child(2) {
+          float: right;
+        }
+      }
+    }
+    .textInput {
+      width: 100%;
+    }
+    .bottom-margin {
+      margin-bottom: 20px;
+    }
+    .checkbox-group {
+      .control--checkbox {
+        font-weight: normal;
+        color: #252525;
+      }
+    }
+    .btnGroup {
+      text-align: right;
+      button {
+        width: 150px;
+        margin-left: 20px;
+      }
+    }
+  }
+}

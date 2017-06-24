@@ -1,0 +1,48 @@
+#single-ad-page {
+
+  .fuel-economy {
+    .content {
+      margin-top: 45px;
+    }
+    .stats {
+      margin-left: 20px;
+      font-size: 16px;
+      li {
+        margin-bottom: 13px;
+        span {
+          &:first-child {
+            color: #ec1c2d;
+          }
+          &:last-child {
+            color: #393939;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .input-group {
+      margin-bottom: 16px;
+      li {
+        display: inline-block;
+        &:nth-child(2) {
+          margin: 0px 10px;
+        }
+        &:last-child {
+          margin-left: 10px;
+        }
+        input {
+          width: 100px;
+          margin-top: 10px;
+        }
+      }
+    }
+    .yearly-cost {
+      margin: 10px auto;
+      padding: 10px 0px;
+      width: 144px;
+      background-color: #ec1c2d;
+      color: #FFFFFF;
+      border-radius: 5px;
+    }
+  }
+}

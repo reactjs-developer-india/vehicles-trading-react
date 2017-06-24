@@ -1,0 +1,107 @@
+.advance-search-result {
+  .search-pagination {
+    margin-top: 50px;
+    font-weight: normal;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #c3c3c3;
+    label {
+      font-weight: normal;
+      line-height: 31px;
+      margin-right: 13px;
+    }
+    li > * {
+      float: left;
+    }
+    .visible-page-numbers {
+      width: 80px;
+    }
+  }
+  .results {
+    margin-top: 43px;
+    .result-stripe {
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
+      border-radius: 10px;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-bottom: 25px;
+      padding-right: 25px;
+    }
+  }
+
+  .result-stripe {
+    margin-bottom: 20px;
+    .location {
+      color: #383838;
+      font-size: 11px;
+      margin-top: 16px;
+    }
+    .stats {
+      margin-top: 20px;
+      ul {
+        li {
+          display: inline-block;
+        }
+      }
+      img {
+        width: 20px;
+        margin-right: 12px;
+      }
+      .elapsed-distance {
+        margin: 0px 50px;
+        font-size: 1.5rem;
+        color: #383838;
+      }
+      .actual-price {
+        font-size: 1.3rem;
+        color: #a3a3a3;
+        text-decoration: line-through;
+        margin-right: 25px;
+      }
+      .slashed-price {
+        color: #287718;
+        font-size: 1.7rem;
+      }
+      .car-proof {
+        color: #1678dc;
+        font-size: 1.5rem;
+      }
+      .btnGroup {
+        display: inline-block;
+        button {
+          width: 114px;
+          font-size: 15px;
+          &:last-child {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+    .ad-detail > * {
+      display: inline-block;
+    }
+    .ad-detail {
+      a{
+        display: inline;
+      }
+      img {
+        height: 90px;
+        vertical-align: top;
+        margin-right: 20px;
+      }
+      .ad-title {
+        font-size: 1.5rem;
+        max-width: 380px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .ad-desc {
+        color: #787878;
+        font-size: 1.3rem;
+        margin-top: 13px;
+        max-width: 380px;
+        overflow: hidden;
+      }
+    }
+  }
+}

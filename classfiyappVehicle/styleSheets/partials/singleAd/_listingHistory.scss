@@ -1,0 +1,30 @@
+#single-ad-page {
+  .listing-history {
+    .content {
+      margin-top: 25px;
+      .green-btn {
+        background-color: #05a705;
+        color: #fff;
+        width: 155px;
+        padding: 10px 0px;
+        text-align: center;
+        border-radius: 18.29px;
+        span {
+          margin-right: 5px;
+        }
+      }
+      ul {
+        margin-left: 25px;
+        li {
+          &:first-child {
+            background-color: #dcffdc;
+            border: 0px;
+          }
+          color: #3b3b3b;
+          padding: 14px 20px;
+          border-bottom: 1px solid #dedede;
+        }
+      }
+    }
+  }
+}

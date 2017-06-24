@@ -1,0 +1,28 @@
+#single-ad-page {
+
+  .features-options {
+    .content {
+      margin-top: 25px;
+    }
+
+    .feature {
+      padding: 14px 0px;
+      background: #e9e9e9;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .feature-list {
+      margin-top: 42px;
+      li {
+        list-style-type: disc;
+        list-style-position: inside;
+        color: #d63a3a;
+        font-size: 18px;
+        span {
+          color: #383838;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

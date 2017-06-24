@@ -1,0 +1,7 @@
+# Compiled source
+.next
+.idea
+
+
+# Dependency directories
+node_modules

@@ -1,0 +1,22 @@
+#loginForm {
+  &.resetpassword-form {
+    max-width: 400px;
+    margin: 0 auto;
+
+  }
+  div {
+    margin-bottom: 20px;
+    input {
+      width: 100%;
+    }
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+}
+
+.error-message {
+  margin-bottom: 10px;
+  color: $theme-color;
+}

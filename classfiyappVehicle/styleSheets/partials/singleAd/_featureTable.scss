@@ -1,0 +1,22 @@
+#single-ad-page {
+  .featureTable {
+    margin-top: 53px;
+    li > div {
+      display: inline-block;
+      width: 50%;
+    }
+    li {
+      border-bottom: 1px solid #cecece;
+      padding: 15px 0px;
+    }
+    .title {
+      font-size: 1.5rem;
+      color: #383838;
+      font-family: 'proxima_nova_ltsemibold';
+    }
+    .desc {
+      font-size: 1.3rem;
+      color: #383838;
+    }
+  }
+}
